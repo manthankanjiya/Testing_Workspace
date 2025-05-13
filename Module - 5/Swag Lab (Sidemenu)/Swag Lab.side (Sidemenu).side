@@ -1,0 +1,194 @@
+{
+  "id": "75eab7bf-cbee-4ac6-81f8-0db96baf3fad",
+  "version": "2.0",
+  "name": "Swag Lab",
+  "url": "https://www.saucedemo.com/inventory.html",
+  "tests": [{
+    "id": "ab28bf01-17fe-4b81-9677-37838a675624",
+    "name": "Sidemenu",
+    "commands": [{
+      "id": "d82b4545-9fed-4e8e-8c19-775100a00a6c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.saucedemo.com/inventory.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d09e032-99ff-460a-8fd4-ead3134920fc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "561250f3-4363-4031-b5b2-1c1c0237aa67",
+      "comment": "",
+      "command": "click",
+      "target": "id=react-burger-menu-btn",
+      "targets": [
+        ["id=react-burger-menu-btn", "id"],
+        ["css=#react-burger-menu-btn", "css:finder"],
+        ["xpath=//button[@id='react-burger-menu-btn']", "xpath:attributes"],
+        ["xpath=//div[@id='menu_button_container']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Open Menu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "117dfe75-bdbb-4f9f-b8d1-697e274b9c77",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"inventory-sidebar-link\"]",
+      "targets": [
+        ["css=*[data-test=\"inventory-sidebar-link\"]", "css:data-attr"],
+        ["id=inventory_sidebar_link", "id"],
+        ["linkText=All Items", "linkText"],
+        ["css=#inventory_sidebar_link", "css:finder"],
+        ["xpath=//a[contains(text(),'All Items')]", "xpath:link"],
+        ["xpath=//a[@id='inventory_sidebar_link']", "xpath:attributes"],
+        ["xpath=//div[@id='menu_button_container']/div/div[2]/div/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'All Items')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "274a7a06-10dd-4ff5-9f37-40ed06cc7457",
+      "comment": "",
+      "command": "click",
+      "target": "id=react-burger-cross-btn",
+      "targets": [
+        ["id=react-burger-cross-btn", "id"],
+        ["css=#react-burger-cross-btn", "css:finder"],
+        ["xpath=//button[@id='react-burger-cross-btn']", "xpath:attributes"],
+        ["xpath=//div[@id='menu_button_container']/div/div[2]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Close Menu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "24647e28-8921-40e4-8b13-c0d5724f8036",
+      "comment": "",
+      "command": "click",
+      "target": "id=react-burger-menu-btn",
+      "targets": [
+        ["id=react-burger-menu-btn", "id"],
+        ["css=#react-burger-menu-btn", "css:finder"],
+        ["xpath=//button[@id='react-burger-menu-btn']", "xpath:attributes"],
+        ["xpath=//div[@id='menu_button_container']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Open Menu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "49d5b9a0-7d1c-44e5-bc05-dbed62b674f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"about-sidebar-link\"]",
+      "targets": [
+        ["css=*[data-test=\"about-sidebar-link\"]", "css:data-attr"],
+        ["id=about_sidebar_link", "id"],
+        ["linkText=About", "linkText"],
+        ["css=#about_sidebar_link", "css:finder"],
+        ["xpath=//a[contains(text(),'About')]", "xpath:link"],
+        ["xpath=//a[@id='about_sidebar_link']", "xpath:attributes"],
+        ["xpath=//div[@id='menu_button_container']/div/div[2]/div/nav/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://saucelabs.com/')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'About')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c90c3895-e18a-4f64-9479-41b9a10ea3d2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1024)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6330d1f4-9238-4f62-9b31-492578bb029e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1954.4000244140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "110584a5-8146-4c7d-9e0c-34e6b1df7723",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2680)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca5d5640-cf01-4691-9f6e-9c085962a19f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3704.800048828125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb107740-e91e-44c7-a37b-ec9dace87a59",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4481.60009765625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa337634-547b-427e-8784-b16bb4f2bbc9",
+      "comment": "",
+      "command": "click",
+      "target": "id=react-burger-menu-btn",
+      "targets": [
+        ["id=react-burger-menu-btn", "id"],
+        ["css=#react-burger-menu-btn", "css:finder"],
+        ["xpath=//button[@id='react-burger-menu-btn']", "xpath:attributes"],
+        ["xpath=//div[@id='menu_button_container']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Open Menu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9451a47-84b7-476e-94c1-906e4224577f",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"reset-sidebar-link\"]",
+      "targets": [
+        ["css=*[data-test=\"reset-sidebar-link\"]", "css:data-attr"],
+        ["id=reset_sidebar_link", "id"],
+        ["linkText=Reset App State", "linkText"],
+        ["css=#reset_sidebar_link", "css:finder"],
+        ["xpath=//a[contains(text(),'Reset App State')]", "xpath:link"],
+        ["xpath=//a[@id='reset_sidebar_link']", "xpath:attributes"],
+        ["xpath=//div[@id='menu_button_container']/div/div[2]/div/nav/a[4]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Reset App State')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "616e6ecf-305e-48f1-b022-412655f59132",
+      "comment": "",
+      "command": "click",
+      "target": "id=react-burger-cross-btn",
+      "targets": [
+        ["id=react-burger-cross-btn", "id"],
+        ["css=#react-burger-cross-btn", "css:finder"],
+        ["xpath=//button[@id='react-burger-cross-btn']", "xpath:attributes"],
+        ["xpath=//div[@id='menu_button_container']/div/div[2]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Close Menu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "838e0050-732b-4d49-9597-d8bac448a5b5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.saucedemo.com/inventory.html"],
+  "plugins": []
+}
